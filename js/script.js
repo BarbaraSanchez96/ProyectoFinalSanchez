@@ -1,0 +1,43 @@
+const productos = [
+    {id: 1, nombre: "Medallones de calabaza", precio: 480},
+    {id: 2, nombre: "Medallones de legumbres", precio: 500},
+    {id: 3, nombre: "Medallones de verduras", precio: 480},
+    {id: 4, nombre: "Medallones de soja", precio: 510},
+    {id: 5, nombre: "Medallones de soja", precio: 600},
+    {id: 6, nombre: "Medallones de arveja", precio: 800},
+    {id: 7, nombre: "Medallones de arveja", precio: 800},
+    {id: 8, nombre: "Medallones not burger", precio: 550},
+    {id: 9, nombre: "Medallones not chicken ", precio: 600},
+    {id: 10, nombre: "Beyond burger", precio: 2300},
+    {id: 11, nombre: "Milanesas de soja", precio: 400},
+    {id: 12, nombre: "Milanesas de soja con cebolla", precio: 420},
+    {id: 13, nombre: "Milanesas de soja con espinaca", precio: 420},
+    {id: 14, nombre: "Milanesas not mila", precio: 650},
+    {id: 15, nombre: "Milanesas not chicken mila", precio: 680},
+    {id: 16, nombre: "Queso cremoso", precio: 750},
+    {id: 17, nombre: "Queso de almendras", precio: 800},
+    {id: 18, nombre: "Queso danbo", precio: 550},
+    {id: 19, nombre: "Queso cheddar", precio: 580},
+    {id: 20, nombre: "Queso untable", precio: 400},
+    {id: 21, nombre: "Queso untable sabor ahumado", precio: 450},
+    {id: 22, nombre: "Queso untable cheddar", precio: 420},
+    {id: 23, nombre: "Queso en hebras", precio: 720},
+    {id: 24, nombre: "Queso en hebras mix", precio: 750},
+    {id: 25, nombre: "Queso not cream cheese", precio: 530},
+    {id: 26, nombre: "Nuggets vegetalex", precio: 600},
+    {id: 27, nombre: "Salchichas vegetalex", precio: 600},
+    {id: 28, nombre: "Nuggets flv", precio: 650},
+    {id: 29, nombre: "Vegan nuggets", precio: 700},
+    {id: 30, nombre: "Panceta veggieland", precio: 680},
+    {id: 31, nombre: "Jamón ahumado veggieland", precio: 680},
+    {id: 32, nombre: "Jamón ahumado veggieland 1kg", precio: 2800},
+    {id: 33, nombre: "Chorizos veggieland", precio: 680},
+    {id: 34, nombre: "Salchichas veggieland", precio: 680},
+    {id: 35, nombre: "Tabletas heladas not", precio: 900},
+    {id: 36, nombre: "Pote helado not", precio: 880},
+    {id: 37, nombre: "Dulce de leche not", precio: 530}
+];
+
+let carrito = [];
+
+

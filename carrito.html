@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@400;900&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logohead.png">
+    <script src="https://kit.fontawesome.com/f87f17ac62.js" crossorigin="anonymous"></script>
+    <title>Veggie market | Carrito de compras</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="header-img">
+                <img src="./img/logo3.png" alt="Logo">
+            </div>
+            <div class="div-nav">
+                <nav>    
+                    <ul>
+                        <li><a href="./index.html" class="seguir"><i class="fa-sharp fa-solid fa-arrow-left"></i> Seguir comprando</a></li>
+                        <li><a href="./carrito.html" class="b-carrito active"><i class="fa-solid fa-cart-shopping"></i> Carrito <span class="numero">0</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h3 class="h3carrito">Carrito</h3>
+        <div class="cont-carrito">
+            <p class="carrito-vacio">Tu carrito de compras está vacío.</p>
+            <div class="carrito-productos">
+                <div class="carrito-producto">
+                    <img class="carrito-prod-img" src="./img/burguers/medallones1.png" alt="">
+                    <div class="carrito-prod-titulo">
+                        <p>Nombre</p>
+                        <h4>Medallones de calabaza</h4>
+                    </div>
+                    <div class="carrito-prod-cant">
+                        <p>Cantidad</p>
+                        <p>1</p>
+                    </div>
+                    <div class="carrito-prod-precio">
+                        <p>Precio</p>
+                        <h4>$480</h4>
+                    </div>
+                    <div class="carrito-prod-subt">
+                        <p>Subtotal</p>
+                        <h4>$480</h4>
+                    </div>
+                    <button class="bot-eliminar-prod"><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div class="carrito-producto">
+                    <img class="carrito-prod-img" src="./img/burguers/medallones2.png" alt="">
+                    <div class="carrito-prod-titulo">
+                        <p>Nombre</p>
+                        <h4>Medallones de calabaza</h4>
+                    </div>
+                    <div class="carrito-prod-cant">
+                        <p>Cantidad</p>
+                        <p>1</p>
+                    </div>
+                    <div class="carrito-prod-precio">
+                        <p>Precio</p>
+                        <h4>$480</h4>
+                    </div>
+                    <div class="carrito-prod-subt">
+                        <p>Subtotal</p>
+                        <h4>$480</h4>
+                    </div>
+                    <button class="bot-eliminar-prod"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="carrito-act">
+            <div class="carrito-act1">
+                <button class="carrito-vaciar">Vaciar carrito</button>
+            </div>
+            <div class="carrito-act2">
+                <div class="carrito-act-total">
+                    <h4>Total:</h4>
+                    <p id="total">$960</p>
+                </div>
+                <button class="carrito-act-comprar">Comprar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>&copy; Veggie market 2023</p>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
